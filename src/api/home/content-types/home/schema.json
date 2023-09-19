@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "jumbotron": {
+      "displayName": "jumbotron",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-content.jumbotron"
+    },
+    "popular": {
+      "displayName": "Popular",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-content.popular"
+    },
+    "video": {
+      "displayName": "Video",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-content.video"
+    },
+    "review": {
+      "displayName": "Review",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-content.review"
+    }
+  }
+}

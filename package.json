@@ -1,0 +1,36 @@
+{
+  "name": "jalanjalantour-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.13.6",
+    "@strapi/plugin-i18n": "4.13.5",
+    "@strapi/plugin-users-permissions": "4.13.5",
+    "@strapi/strapi": "4.13.5",
+    "better-sqlite3": "8.5.0",
+    "strapi-plugin-react-editorjs": "^2.0.2"
+  },
+  "preinstall": "npx npm-force-resolutions",
+  "resolutions": {
+    "graphql": "16.8.0",
+    "**/graphql": "16.8.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "f7960f29-e5f4-4d11-9ed8-b8dbbcb6beca"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

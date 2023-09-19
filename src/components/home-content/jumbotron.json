@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_home_content_jumbotrons",
+  "info": {
+    "displayName": "jumbotron",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "desc": {
+      "type": "string"
+    },
+    "button": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-content.button"
+    }
+  }
+}

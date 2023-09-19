@@ -1,0 +1,8 @@
+{
+    "home": {
+        "jumbotron": "api/home?populate[Jumbotron][populate]=*",
+        "popular": "api/home?populate[Popular][populate][Destination][populate]=*",
+        "video": "api/home?populate[Video][populate]=*",
+        "reviews": " api/home?populate[review][populate][reviews][populate]=*"
+    }
+}
